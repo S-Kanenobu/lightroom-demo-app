@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		950ABAC92578916C00E446C2 /* SepiaEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950ABAC82578916C00E446C2 /* SepiaEffect.swift */; };
+		950ABAD225789C3100E446C2 /* ExposureEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950ABAD125789C3100E446C2 /* ExposureEffect.swift */; };
+		950ABAD825789CCF00E446C2 /* ContrastEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950ABAD725789CCF00E446C2 /* ContrastEffect.swift */; };
+		950ABADC2578A21500E446C2 /* ToneEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950ABADB2578A21500E446C2 /* ToneEffect.swift */; };
+		956B215425660CF2002A171B /* ImageFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B215325660CF2002A171B /* ImageFolder.swift */; };
+		956B215825660ECF002A171B /* ImageFilesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B215725660ECF002A171B /* ImageFilesTableViewCell.swift */; };
+		9586446A256F4D5F003E38A3 /* LiteEffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95864469256F4D5F003E38A3 /* LiteEffectsViewController.swift */; };
+		9586446E256F5A5E003E38A3 /* ColorEffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586446D256F5A5E003E38A3 /* ColorEffectsViewController.swift */; };
+		95864471256F5A77003E38A3 /* SliderEffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95864470256F5A77003E38A3 /* SliderEffectsViewController.swift */; };
+		95864474256F5B11003E38A3 /* PresetEffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95864473256F5B11003E38A3 /* PresetEffectsViewController.swift */; };
+		95AB6DD52570DB6200DB922F /* OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 95AB6DD42570DB6200DB922F /* OpenCV.mm */; };
+		95AB6DF12570F2BC00DB922F /* EffectsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB6DF02570F2BC00DB922F /* EffectsEnum.swift */; };
+		95AB6DF42570F6CD00DB922F /* Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB6DF32570F6CD00DB922F /* Effect.swift */; };
+		95B22D3C2567877A0078810D /* ImageFolderEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B22D3B2567877A0078810D /* ImageFolderEnum.swift */; };
+		95B4C49025749FA7001CF016 /* GrayScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B4C48F25749FA7001CF016 /* GrayScaleEffect.swift */; };
+		95CA932E25635A6B006FD610 /* ImageManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CA932D25635A6B006FD610 /* ImageManagerViewController.swift */; };
+		95CA933225635AB5006FD610 /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CA933125635AB5006FD610 /* ImagesViewController.swift */; };
+		95DAD9BB25650171000EF4BA /* FileManagerStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DAD9BA25650171000EF4BA /* FileManagerStruct.swift */; };
+		95E31D2A255B8BFD008F451C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E31D29255B8BFD008F451C /* AppDelegate.swift */; };
+		95E31D2C255B8BFD008F451C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E31D2B255B8BFD008F451C /* SceneDelegate.swift */; };
+		95E31D2E255B8BFD008F451C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E31D2D255B8BFD008F451C /* MainViewController.swift */; };
+		95E31D31255B8BFD008F451C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E31D2F255B8BFD008F451C /* Main.storyboard */; };
+		95E31D33255B8BFF008F451C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E31D32255B8BFF008F451C /* Assets.xcassets */; };
+		95E31D36255B8BFF008F451C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E31D34255B8BFF008F451C /* LaunchScreen.storyboard */; };
+		95FAB0DA255BB2180026CFCE /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FAB0D9255BB2180026CFCE /* CameraViewController.swift */; };
+		FB1260CBD1E617ABDE7B5972 /* Pods_LightroomDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF227FB17DBA3F0F2DCDB25 /* Pods_LightroomDemoApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F37059397B34D27F7C83A96 /* Pods-LightroomDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightroomDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-LightroomDemoApp/Pods-LightroomDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		950ABAC82578916C00E446C2 /* SepiaEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaEffect.swift; sourceTree = "<group>"; };
+		950ABAD125789C3100E446C2 /* ExposureEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureEffect.swift; sourceTree = "<group>"; };
+		950ABAD725789CCF00E446C2 /* ContrastEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContrastEffect.swift; sourceTree = "<group>"; };
+		950ABADB2578A21500E446C2 /* ToneEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneEffect.swift; sourceTree = "<group>"; };
+		956B215325660CF2002A171B /* ImageFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFolder.swift; sourceTree = "<group>"; };
+		956B215725660ECF002A171B /* ImageFilesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilesTableViewCell.swift; sourceTree = "<group>"; };
+		956B215E25663331002A171B /* ExDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExDateFormatter.swift; sourceTree = "<group>"; };
+		95864469256F4D5F003E38A3 /* LiteEffectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteEffectsViewController.swift; sourceTree = "<group>"; };
+		9586446D256F5A5E003E38A3 /* ColorEffectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEffectsViewController.swift; sourceTree = "<group>"; };
+		95864470256F5A77003E38A3 /* SliderEffectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderEffectsViewController.swift; sourceTree = "<group>"; };
+		95864473256F5B11003E38A3 /* PresetEffectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetEffectsViewController.swift; sourceTree = "<group>"; };
+		95AB6DD22570DB6200DB922F /* LightroomDemoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LightroomDemoApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		95AB6DD32570DB6200DB922F /* OpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCV.h; sourceTree = "<group>"; };
+		95AB6DD42570DB6200DB922F /* OpenCV.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCV.mm; sourceTree = "<group>"; };
+		95AB6DF02570F2BC00DB922F /* EffectsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsEnum.swift; sourceTree = "<group>"; };
+		95AB6DF32570F6CD00DB922F /* Effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effect.swift; sourceTree = "<group>"; };
+		95B22D3B2567877A0078810D /* ImageFolderEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFolderEnum.swift; sourceTree = "<group>"; };
+		95B22D402567A18B0078810D /* DirManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirManager.swift; sourceTree = "<group>"; };
+		95B4C48F25749FA7001CF016 /* GrayScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayScaleEffect.swift; sourceTree = "<group>"; };
+		95CA932D25635A6B006FD610 /* ImageManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManagerViewController.swift; sourceTree = "<group>"; };
+		95CA933125635AB5006FD610 /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+		95DAD9BA25650171000EF4BA /* FileManagerStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerStruct.swift; sourceTree = "<group>"; };
+		95E31D26255B8BFD008F451C /* LightroomDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightroomDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E31D29255B8BFD008F451C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95E31D2B255B8BFD008F451C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95E31D2D255B8BFD008F451C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		95E31D30255B8BFD008F451C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95E31D32255B8BFF008F451C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95E31D35255B8BFF008F451C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95E31D37255B8BFF008F451C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FAB0D9255BB2180026CFCE /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D592698DDCCA8BB3F1A6CF2D /* Pods-LightroomDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightroomDemoApp.release.xcconfig"; path = "Target Support Files/Pods-LightroomDemoApp/Pods-LightroomDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		DDF227FB17DBA3F0F2DCDB25 /* Pods_LightroomDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LightroomDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95E31D23255B8BFD008F451C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1260CBD1E617ABDE7B5972 /* Pods_LightroomDemoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F1AD1765ABAB20E15448232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDF227FB17DBA3F0F2DCDB25 /* Pods_LightroomDemoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91A40CC85AFC3F54F1B6CCC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F37059397B34D27F7C83A96 /* Pods-LightroomDemoApp.debug.xcconfig */,
+				D592698DDCCA8BB3F1A6CF2D /* Pods-LightroomDemoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		95AB6DD12570DB2800DB922F /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				95AB6DD32570DB6200DB922F /* OpenCV.h */,
+				95AB6DD42570DB6200DB922F /* OpenCV.mm */,
+				95AB6DD22570DB6200DB922F /* LightroomDemoApp-Bridging-Header.h */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		95AB6DF82570F70C00DB922F /* EffectModel */ = {
+			isa = PBXGroup;
+			children = (
+				95AB6DF02570F2BC00DB922F /* EffectsEnum.swift */,
+				95AB6DF32570F6CD00DB922F /* Effect.swift */,
+				95B4C48F25749FA7001CF016 /* GrayScaleEffect.swift */,
+				950ABAD125789C3100E446C2 /* ExposureEffect.swift */,
+				950ABAC82578916C00E446C2 /* SepiaEffect.swift */,
+				950ABAD725789CCF00E446C2 /* ContrastEffect.swift */,
+				950ABADB2578A21500E446C2 /* ToneEffect.swift */,
+			);
+			path = EffectModel;
+			sourceTree = "<group>";
+		};
+		95CA9326256354FC006FD610 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95E31D2F255B8BFD008F451C /* Main.storyboard */,
+				95E31D34255B8BFF008F451C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95CA932725635508006FD610 /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+				95E31D2D255B8BFD008F451C /* MainViewController.swift */,
+				95FAB0D9255BB2180026CFCE /* CameraViewController.swift */,
+				95CA933125635AB5006FD610 /* ImagesViewController.swift */,
+				956B215725660ECF002A171B /* ImageFilesTableViewCell.swift */,
+				95CA932D25635A6B006FD610 /* ImageManagerViewController.swift */,
+				95864469256F4D5F003E38A3 /* LiteEffectsViewController.swift */,
+				9586446D256F5A5E003E38A3 /* ColorEffectsViewController.swift */,
+				95864470256F5A77003E38A3 /* SliderEffectsViewController.swift */,
+				95864473256F5B11003E38A3 /* PresetEffectsViewController.swift */,
+				95E31D29255B8BFD008F451C /* AppDelegate.swift */,
+				95E31D2B255B8BFD008F451C /* SceneDelegate.swift */,
+			);
+			path = Cotroller;
+			sourceTree = "<group>";
+		};
+		95CA93282563551E006FD610 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95AB6DF82570F70C00DB922F /* EffectModel */,
+				95DAD9BA25650171000EF4BA /* FileManagerStruct.swift */,
+				956B215325660CF2002A171B /* ImageFolder.swift */,
+				95B22D3B2567877A0078810D /* ImageFolderEnum.swift */,
+				95E31D32255B8BFF008F451C /* Assets.xcassets */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95CE6F78257735AC001A8215 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				956B215E25663331002A171B /* ExDateFormatter.swift */,
+				95B22D402567A18B0078810D /* DirManager.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		95E31D1D255B8BFD008F451C = {
+			isa = PBXGroup;
+			children = (
+				95E31D28255B8BFD008F451C /* LightroomDemoApp */,
+				95E31D27255B8BFD008F451C /* Products */,
+				91A40CC85AFC3F54F1B6CCC4 /* Pods */,
+				2F1AD1765ABAB20E15448232 /* Frameworks */,
+				95CE6F78257735AC001A8215 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		95E31D27255B8BFD008F451C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95E31D26255B8BFD008F451C /* LightroomDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95E31D28255B8BFD008F451C /* LightroomDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				95AB6DD12570DB2800DB922F /* OpenCV */,
+				95CA93282563551E006FD610 /* Model */,
+				95CA932725635508006FD610 /* Cotroller */,
+				95CA9326256354FC006FD610 /* View */,
+				95E31D37255B8BFF008F451C /* Info.plist */,
+			);
+			path = LightroomDemoApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95E31D25255B8BFD008F451C /* LightroomDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E31D3A255B8BFF008F451C /* Build configuration list for PBXNativeTarget "LightroomDemoApp" */;
+			buildPhases = (
+				2001AD9EF6FC15D4076578BA /* [CP] Check Pods Manifest.lock */,
+				95E31D22255B8BFD008F451C /* Sources */,
+				95E31D23255B8BFD008F451C /* Frameworks */,
+				95E31D24255B8BFD008F451C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightroomDemoApp;
+			productName = LightroomDemoApp;
+			productReference = 95E31D26255B8BFD008F451C /* LightroomDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95E31D1E255B8BFD008F451C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					95E31D25255B8BFD008F451C = {
+						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1220;
+					};
+				};
+			};
+			buildConfigurationList = 95E31D21255B8BFD008F451C /* Build configuration list for PBXProject "LightroomDemoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95E31D1D255B8BFD008F451C;
+			productRefGroup = 95E31D27255B8BFD008F451C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95E31D25255B8BFD008F451C /* LightroomDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95E31D24255B8BFD008F451C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E31D36255B8BFF008F451C /* LaunchScreen.storyboard in Resources */,
+				95E31D33255B8BFF008F451C /* Assets.xcassets in Resources */,
+				95E31D31255B8BFD008F451C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2001AD9EF6FC15D4076578BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LightroomDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95E31D22255B8BFD008F451C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AB6DF12570F2BC00DB922F /* EffectsEnum.swift in Sources */,
+				95CA932E25635A6B006FD610 /* ImageManagerViewController.swift in Sources */,
+				95E31D2E255B8BFD008F451C /* MainViewController.swift in Sources */,
+				95DAD9BB25650171000EF4BA /* FileManagerStruct.swift in Sources */,
+				95AB6DF42570F6CD00DB922F /* Effect.swift in Sources */,
+				95B22D3C2567877A0078810D /* ImageFolderEnum.swift in Sources */,
+				95CA933225635AB5006FD610 /* ImagesViewController.swift in Sources */,
+				950ABAC92578916C00E446C2 /* SepiaEffect.swift in Sources */,
+				950ABAD825789CCF00E446C2 /* ContrastEffect.swift in Sources */,
+				950ABADC2578A21500E446C2 /* ToneEffect.swift in Sources */,
+				95AB6DD52570DB6200DB922F /* OpenCV.mm in Sources */,
+				95B4C49025749FA7001CF016 /* GrayScaleEffect.swift in Sources */,
+				956B215425660CF2002A171B /* ImageFolder.swift in Sources */,
+				9586446A256F4D5F003E38A3 /* LiteEffectsViewController.swift in Sources */,
+				95FAB0DA255BB2180026CFCE /* CameraViewController.swift in Sources */,
+				950ABAD225789C3100E446C2 /* ExposureEffect.swift in Sources */,
+				95E31D2A255B8BFD008F451C /* AppDelegate.swift in Sources */,
+				95864474256F5B11003E38A3 /* PresetEffectsViewController.swift in Sources */,
+				95864471256F5A77003E38A3 /* SliderEffectsViewController.swift in Sources */,
+				956B215825660ECF002A171B /* ImageFilesTableViewCell.swift in Sources */,
+				9586446E256F5A5E003E38A3 /* ColorEffectsViewController.swift in Sources */,
+				95E31D2C255B8BFD008F451C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95E31D2F255B8BFD008F451C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95E31D30255B8BFD008F451C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95E31D34255B8BFF008F451C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95E31D35255B8BFF008F451C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95E31D38255B8BFF008F451C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95E31D39255B8BFF008F451C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95E31D3B255B8BFF008F451C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F37059397B34D27F7C83A96 /* Pods-LightroomDemoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G483L47SVG;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				INFOPLIST_FILE = LightroomDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3rrr.LightroomDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LightroomDemoApp/OpenCV/LightroomDemoApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95E31D3C255B8BFF008F451C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D592698DDCCA8BB3F1A6CF2D /* Pods-LightroomDemoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G483L47SVG;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				INFOPLIST_FILE = LightroomDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3rrr.LightroomDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LightroomDemoApp/OpenCV/LightroomDemoApp-Bridging-Header.h";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95E31D21255B8BFD008F451C /* Build configuration list for PBXProject "LightroomDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E31D38255B8BFF008F451C /* Debug */,
+				95E31D39255B8BFF008F451C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E31D3A255B8BFF008F451C /* Build configuration list for PBXNativeTarget "LightroomDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E31D3B255B8BFF008F451C /* Debug */,
+				95E31D3C255B8BFF008F451C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95E31D1E255B8BFD008F451C /* Project object */;
+}
